@@ -1,4 +1,3 @@
-
 name: RpnCalc CI
 
 on:
@@ -22,7 +21,7 @@ jobs:
         run: mvn -B clean package -DskipTests
       - name: Maven Verify
         run: mvn -B clean verify
-          
+
   artifact:
     name: Publish - GitHub Packages
     runs-on: ubuntu-18.04
