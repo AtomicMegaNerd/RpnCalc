@@ -24,7 +24,7 @@ jobs:
 
   artifact:
     name: Publish - GitHub Packages
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     needs: [test]
 
     steps:
